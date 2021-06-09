@@ -1,7 +1,14 @@
 import React from "react"
 
+import Menu from '../components/layout/Menu'
+import Content from '../components/layout/Content'
+
 const App = props => (
-    <h1>Componente App</h1>
+    <div className="App">
+        <Menu />
+        <Content />
+        
+    </div>
 )
 
 export default App
