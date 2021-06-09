@@ -1,3 +1,4 @@
+import './Menu.css'
 import React from "react"
 
 const Menu = props => (
@@ -6,19 +7,19 @@ const Menu = props => (
     <nav>
         <ul>
             <li>
-                Home
+            <a href="/">  Home </a>  
             </li>
             <li>
-                Contéudo 01
+            <a href="/">   Contéudo 01 </a>
             </li>
             <li>
-                Conteúdo 02
+            <a href="/"> Conteúdo 02 </a>
             </li>
             <li>
-                Conteúdo 03
+            <a href="/"> Conteúdo 03 </a>
             </li>
             <li>
-                Contéudo 04
+            <a href="/"> Contéudo 04 </a>
             </li>
         </ul>
     </nav>
