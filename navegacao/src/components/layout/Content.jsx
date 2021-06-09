@@ -13,19 +13,24 @@ const Content = props => (
            <Route exact path="/">
                <Home />
            </Route>
+
            <Route path="/conteudo01">
+           
                <Conteudo01 />
+               </Route>
+               
+
                <Route path="/conteudo02">
                    <Conteudo02 />
                </Route>
                <Route path="/conteudo03">
                    <Conteudo03 />
                </Route>
-               <Route path="*">
+               <Route path="****">
                    <NaoEncontrado />
                </Route>
 
-           </Route>
+           
        </Switch>
     </main>
 )

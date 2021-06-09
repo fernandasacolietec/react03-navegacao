@@ -2,7 +2,7 @@ import React from "react"
 
 const Conteudo02 = props => (
     <div>
-        <h1>Conteudo 02</h1>
+        <h1>Conteúdo 02</h1>
     </div>
 )
 

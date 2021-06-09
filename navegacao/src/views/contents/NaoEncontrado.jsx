@@ -2,7 +2,7 @@ import React from "react"
 
 const NaoEncontrado = props => (
     <div>
-        <h1>Página Não Encontrada.</h1>
+        <h1>Página não encontrada ;-;</h1>
     </div>
 )
 

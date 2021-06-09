@@ -9,7 +9,7 @@ const App = props => (
     <div className="App">
         <Router>
           <Menu />
-         <Content />
+          <Content />
         </Router>
         
     </div>
