@@ -5,7 +5,7 @@ import Home from '../../views/contents/Home'
 import Conteudo01 from '../../views/contents/Conteudo01'
 import Conteudo02 from '../../views/contents/Conteudo02'
 import Conteudo03 from '../../views/contents/Conteudo03'
-import NaoEncontrado from '../../views/contents//NaoEncontrado'
+import NaoEncontrado from '../../views/contents/NaoEncontrado'
 
 const Content = props => (
     <main className="Content">
