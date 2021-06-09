@@ -14,12 +14,10 @@ const Content = props => (
                <Home />
            </Route>
 
-           <Route path="/conteudo01">
+           <Route path="/conteudo01/:usuario">
            
                <Conteudo01 />
                </Route>
-               
-
                <Route path="/conteudo02">
                    <Conteudo02 />
                </Route>
